@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+/*头部样式*/
+.top{
+    width: 1000px;
+    margin: 0 auto;
+    height: 110px;
+}
+.top-top{
+    height: 22px;
+    display: flex;
+    background-color: #e3e4e5;
+}
+.top-top p{
+    margin-left: 80px;
+}
+.top-list{
+    margin-left: 380px;
+    float: right;
+}
+.top-a{
+    text-decoration: none;
+    color: black;
+}
+.top-a:hover{
+    color: red;
+    background-color: white;
+}
+.top-span{
+    margin: 0px 5px;
+}
+.top-main{
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    height: 88px;
+}
+.search{
+    margin: 25px;
+}
+.search input{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    outline: none;
+    width: 400px;
+    height: 45px;
+    border: 1px solid red;
+    padding: 0 25px;
+    border-radius: 10px 0 0 10px;
+}
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 10px 10px 0;
+    width: 80px;
+    height: 45px;
+    border:1px solid orange;
+    background: orange;
+    color: white;
+}
+/*显示菜单的开始*/
+.mid{
+    margin: 0 auto;
+    width: 1000px;
+    height: 520px;
+    border-bottom: 1px silver solid;
+}
+.tips{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border: 1px  solid  #e9e9e9;
+}
+.tips li{
+    float: left;
+    line-height: 50px;
+    font-size: 12px;
+    color: gray;
+}
+.tips li:nth-child(1){width: 70px;}
+.tips li:nth-child(2){margin-left: 40px;}
+.tips li:nth-child(3){margin-left: 460px;}
+.tips li:nth-child(4){margin-left: 80px;}
+.tips li:nth-child(5){margin-left: 100px;}
+.tips li:nth-child(6){margin-left: 90px;}
+/*商品详情展示开始*/
+.info{
+    width: 1000px;
+    height: 125px;
+    background-color: orange;
+    margin-top: 10px;
+    border-top: 3px solid  gray;
+}
+.info li{
+    float:  left;
+    margin-top: 20px;
+}
+.info a{
+    font-size: 12px;
+    color: #333333;
+}
+.info img{
+    width: 80px;
+}
+.inf1{
+    margin-left: 23px;
+}
+.info2{
+    margin:0 8px;
+    border: 1px  solid gray;
+}
+.info3{
+    width: 270px;
+    height: 20px;
+}
+.info4{
+    margin-left: 45px;
+}
+.info5{
+    margin-left: 70px;
+}
+.info6{
+    margin-left: 40px;
+}
+.info6 input{
+    width: 30px;
+    height: 12px;
+    text-align: center;
+    position: relative;
+    top: -2px;
+    left: -5px;
+}
+.info6 button{
+    width: 30px;
+    height: 18px;
+}
+.bot{
+    position: relative;
+    left: -10px;
+}
+.info7{
+    width: 120px;
+}
+/*商品详情展示结束*/
+/*结算模块开始*/
+.balance{
+    width: 1000px;
+    height: 50px;
+    border: 1px  solid  gray;
+    margin-top: 20px;
+}
+.balance_ul1,.balance_ul1>li,.balance_ul2>li{
+    float: left;
+    line-height: 50px;
+    margin-left: 14px;
+}
+.balance_ul2{
+    float: right;
+}
+.butt{
+    width: 100px;
+    height: 50px;
+    background-color: #C91623;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.balance span{
+    font-size: 25px;
+    color: #C91623 ;
+    font-weight: bold;
+}
+.balance_ul2 li:nth-child(1){width: 120px;}
+.balance_ul2 li:nth-child(2){width: 150px;}
+/*结算模块结束*/
+.foot{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 112%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 190px;
+}
+.foot li{
+    float: left;
+}
+.foot a{
+    color: black;
+    text-align: center;
+}

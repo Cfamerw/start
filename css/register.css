@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.top{
+    position: absolute;
+    display: flex;
+    height: 80px;
+    width: 80%;
+    left: 10%;
+    /*border-bottom: skyblue 1px solid;*/
+    box-shadow: skyblue 0 6px 3px;
+}
+.top img{
+    height: 80px;
+    width: 120px;
+}
+.top p{
+    position: absolute;
+    top: 24%;
+    left: 13%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.login{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.login a{
+    color: red;
+}
+.mid{
+    position: absolute;
+    width: 80%;
+    height: 460px;
+    top: 12%;
+    left: 10%;
+    border-bottom: 1px pink solid;
+}
+.register-box{
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: skyblue 0 5px 10px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.register-box img{
+    width: 20px;
+    margin: 1px 10px 1px 10px;
+}
+.register-box h3{
+    text-align: center;
+    font-size: 30px;
+}
+.register-box input{
+    outline: none;
+    margin-top: 30px;
+    width: 220px;
+    border: none;
+    border-bottom: 1px silver solid;
+}
+
+.register-box button{
+    margin-top: 20px;
+    width: 240px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 8%;
+}
+.register-box button:active{
+    background-color: #adffab;
+}
+.list{
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    bottom: 12%;
+    left: 49%;
+}
+.list li{
+    float: left;
+    margin-left: 20px;
+}
+.list img{
+    width: 30px;
+    height: 30px;
+}
+.foot{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 88%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 190px;
+}
+.foot li{
+   float: left;
+}
+.foot a{
+    color: black;
+    text-align: center;
+}

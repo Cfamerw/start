@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+/*头部样式*/
+.top{
+    width: 1000px;
+    margin: 0 auto;
+    height: 110px;
+}
+.top-top{
+    height: 22px;
+    display: flex;
+    background-color: #e3e4e5;
+}
+.top-top p{
+    margin-left: 80px;
+}
+.top-list{
+    margin-left: 380px;
+    float: right;
+}
+.top-a{
+    text-decoration: none;
+    color: black;
+}
+.top-a:hover{
+    color: red;
+    background-color: white;
+}
+.top-span{
+    margin: 0px 5px;
+}
+.top-main{
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    height: 88px;
+}
+.search{
+    margin: 25px;
+}
+.search input{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    outline: none;
+    width: 400px;
+    height: 45px;
+    border: 1px solid red;
+    padding: 0 25px;
+    border-radius: 10px 0 0 10px;
+}
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 10px 10px 0;
+    width: 80px;
+    height: 45px;
+    border:1px solid orange;
+    background: orange;
+    color: white;
+}
+.navigation{
+    width: 100%;
+    height: 40px;
+    background-color: #ff5221;
+}
+.navCenter {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.navCenter ul {
+    float: left;
+    position: absolute;
+}
+.navCenter ul li {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+}
+.navCenter ul li a {
+    color:#fafafa;
+    display: block;
+}
+.navCenter ul li a:hover, .navCenter .login .shoppingCart:hover {
+    color: #fff;
+    background-color: #ff6700;
+}
+.navCenter .login {
+    float: right;
+}
+.navCenter .login .shoppingCart {
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.shoppingCart img{
+    padding-top:5px;
+    width: 20px;
+    height: 20px;
+}
+.shoppingCart a{
+    color: white;
+}
+.nav-menu:hover .nav-list{
+    display: block;
+}
+.nav-list{
+    width: 70px;
+    height: 360px;
+    background-color: #ff5221;
+    display: none;
+}
+.nav-list ul li{
+    text-align: center;
+}
+.nav-list li a{
+    color: white;
+}
+.nav-list li a:hover{
+    background-color: red;
+}
+/*中间样式*/
+#mid{
+    width: 1000px;
+    margin: 0 auto;
+    height: 1480px;
+    background-color: white;
+}
+/*轮播图样式*/
+#mid-roll{
+    width: 800px;
+    height: 300px;
+    border: 1px solid #ffced9;
+    margin-left: 100px;
+    overflow: hidden;
+}
+#imglist{
+    width: 3200px;
+    height: 300px;
+}
+#imglist img {
+    width: 800px;
+    height: 300px;
+}
+#imglist li{
+    float: left;
+}
+.mleft{
+    width: 30px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    left: 5px;
+    top: 45%;
+    margin-left: 230px;
+    cursor: pointer;
+}
+.mright{
+    background-color: #666666;
+    width: 30px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 45%;
+    margin-right: 230px;
+    cursor: pointer;
+}
+#minimg{
+    position: absolute;
+    margin-bottom: 200px;
+    margin-right: 630px;
+    right: 10px;
+    bottom: 10px;
+}
+#minimg li{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: pink;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*中部标题样式*/
+.mid-title{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 430px 10px ;
+}
+/*中部商品图样式*/
+.mid-picture{
+    width: 990px;
+    height: 510px;
+    border-radius: 10px;
+    border: 1px solid #ff5e6d;
+}
+.mid-list li{
+    margin: 10px 10px 0 5px;
+    float: left;
+    width: 180px;
+    height: 240px;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+.mid-list img{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+.deco h5,.deco p{
+    margin-top: 10px;
+}
+.mid-list li:hover {
+    opacity: 60%;
+}
+.mid-picture h5,.mid-picture p,.mid-picture span{
+    text-align: center;
+}
+.mid-picture p{
+    color: red;
+    font-weight:bold;
+}
+/*底部样式开始0*/
+.foot{
+    height: 500px;
+    border-top: 1px silver solid;
+    background-color: rgba(148,148,148,0.12);
+}
+.foot-pic{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px silver solid;
+}
+.foot-pic img{
+    width: 240px;
+    height: 90px;
+}
+
+.foot-list{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 150px;
+    border-bottom: 1px solid silver;
+}
+.foot-list ul:nth-child(n+2){
+    margin-left: 160px;
+}
+.foot-list-tit{
+    margin: 20px 0 4px;
+    font-weight: bold;
+}
+.foot-list a{
+    color: black;
+    font-size: 12px;
+}
+.foot-list-tit p{
+    font-size: 15px;
+}
+.foot-list a:hover{
+    color: red;
+}
+.foot-foot{
+     width: 1000px;
+     height: 80px;
+    display: flex;
+     margin: 0 auto;
+ }
+.foot-left{
+    width: 300px;
+    height: 80px;
+}
+.foot-left p,.foot-right p{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.foot-left a{
+    color: black;
+    margin: 0px 80px 10px 20px;
+}
+.foot-right{
+     width: 600px;
+     height: 80px;
+    margin-left: 100px;
+ }
+.foot-right li{
+    display: flex;
+    float: left;
+    margin-right: 60px;
+}
+.foot-right a{
+    color: black;
+}
+.foot-end{
+    width: 600px;
+    height: 30px;
+    margin: 0 auto;
+}
+.foot-end li{
+    float: left;
+    display: flex;
+    text-align: center;
+}
+.foot-end a{
+    margin-left: 10px;
+    color: black;
+}

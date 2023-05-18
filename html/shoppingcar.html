@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的购物车</title>
+    <link rel="stylesheet" type="text/css" href="/css/shoppingcar.css"/>
+</head>
+<body>
+
+<div class="top">
+    <div class="top-top">
+        <p>i购物官网欢迎您！</p>
+        <div class="top-list">
+            <a href="" class="top-a">i购物，每天都在买</a> <span class="top-span">|</span>
+            <a href="" class="top-a">会员中心</a>       <span class="top-span">|</span>
+            <a href="" class="top-a">我的订单</a>       <span class="top-span">|</span>
+            <a href="" class="top-a">收藏夹</a>        <span class="top-span">|</span>
+            <a href="" class="top-a">卖家中心</a>       <span class="top-span">|</span>
+        </div>
+    </div>
+    <div class="top-main">
+        <div class="logo"><a href="index.html"><img src="/picture/i购物.jpg" alt=""></a></div>
+        <div class="search">
+            <input type="text" placeholder="iPhone 14 Pro Max">
+            <input type="submit" value="搜搜">
+        </div>
+    </div>
+</div>
+
+<!--标题结束-->
+<!--显示菜单的开始-->
+<div class="tips warp">
+    <ul>
+        <li>
+            <input type="checkbox" name="fav" id="all" onclick="checkTest1(this),checkTest2()"/>
+            全选
+        </li>
+        <li>商品</li>
+        <li>单价</li>
+        <li>数量</li>
+        <li>小计</li>
+        <li>操作</li>
+    </ul>
+</div>
+<!--显示菜单的结束-->
+<!--商品详情展示开始-->
+<div class="mid">
+<div class="info warp">
+    <ul>
+        <li class="info1"><input type="checkbox"   name="fav" onclick="checkTest2()"/> </li>
+        <li class="info2"> <img src="/picture/推荐商品1.jpg"/> </li>
+        <li class="info3"><a>Apple 苹果 iPhone 14 Pro Max(A2896) 全网通5G手机 128GB暗紫色 官方标配 【搭配 20W品牌充头+碎屏险】</a></li>
+        <li class="info4"><a>颜色：暗紫色</a> </li>
+        <li class="info5">288.00</li>
+        <li class="info6">
+            <button onclick="checkTest3(this,1),checkTest2()">-</button>
+            <input type="text" name="" id="" value="1" />
+            <button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+        </li>
+        <li class="info_7">￥288.00</li>
+        <li>
+            <a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+        </li>
+    </ul>
+</div>
+<div class="info warp">
+    <ul>
+        <li class="info1"><input type="checkbox" name="fav" onclick="checkTest2()"/> </li>
+        <li class="info2"> <img src="/picture/推荐商品2.jpg"/></li>
+        <li class="info3"><a>耐克Nike SB Dunk米绿白青苹果复古运动休闲低帮滑板鞋 DM0807-300 41</a></li>
+        <li class="info4"><a>颜色：米绿白</a> </li>
+        <li class="info5">9.9</li>
+        <li class="info6">
+            <button onclick="checkTest3(this,1),checkTest2()">-</button>
+            <input type="text" name="" id="" value="1" />
+            <button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+        </li>
+        <li class="info_7">￥9.9</li>
+        <li>
+            <a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+        </li>
+    </ul>
+</div>
+<div class="info warp">
+    <ul>
+        <li class="info1"><input type="checkbox" name="fav"  onclick="checkTest2()"/> </li>
+        <li class="info2"> <img src="/picture/推荐商品3.jpg"/> </li>
+        <li class="info3"><a>联想拯救者Y9000P 16英寸游戏本 笔记本电脑(i9-12900H 16G 512G RTX3070Ti 165Hz 2.5k电竞屏)钛晶灰</a></li>
+        <li class="info4"><a>颜色：钛金灰</a> </li>
+        <li class="info5">88.88</li>
+        <li class="info6">
+            <button onclick="checkTest3(this,1),checkTest2()">-</button>
+            <input type="text" name="" id="" value="1" />
+            <button class="bot" onclick="checkTest3(this,2),checkTest2()">+</button>
+        </li>
+        <li class="info7">￥88.88</li>
+        <li>
+            <a href="javascript:viod(0)" onclick="checkTest4(this),checkTest2()">删除</a><br />
+        </li>
+    </ul>
+</div>
+<!--商品详情展示结束-->
+<!--结算开始-->
+<div class="balance warp">
+    <ul class="balance_ul1">
+        <li>
+            <input type="checkbox" name="fav" id="" value=""  onclick="checkTest1(this),checkTest2()"/>
+            全选
+        </li>
+
+    </ul>
+    <ul class="balance_ul2">
+        <li>已经选择<span id="snum">0</span>件商品</li>
+        <li>总价 <span id="zongz">￥0</span></li>
+        <li>
+            <button class="butt">去结算</button>
+        </li>
+    </ul>
+</div>
+</div>
+<!--结算结束-->
+<div class="foot">
+    <ul>
+        <li><a href="">关于我们</a><span>|</span></li>
+        <li><a href="">i购物 版权所有</a><span>|</span></li>
+        <li><a href="">营业执照</a><span>|</span></li>
+        <li><a href="">网络经营许可证</a><span>|</span></li>
+        <li><a href="">客服电话：110</a><span>|</span></li>
+        <li><a href="">举报邮箱：@2981903527</a></li></ul>
+</div>
+<script src="/js/shoppingcar.js"></script>
+</body>
+</html>
